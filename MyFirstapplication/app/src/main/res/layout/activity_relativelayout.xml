@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RelativelayoutActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/GotoRelativeLayout_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimens_30dp"
+        android:layout_marginTop="@dimen/dimens_60dp"
+        android:layout_marginEnd="@dimen/dimens_30dp"
+        android:background="@drawable/box"
+        android:text="@string/gotoRelativeLayout" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/relative_Btn1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GotoRelativeLayout_Btn"
+        android:layout_marginStart="@dimen/dimens_30dp"
+        android:layout_marginTop="@dimen/dimens_30dp"
+        android:background="@drawable/box"
+        android:text="@string/button1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GotoRelativeLayout_Btn"
+        android:layout_marginStart="@dimen/dimens_10dp"
+        android:layout_toEndOf="@id/relative_Btn1"
+        android:background="@drawable/box"
+        android:layout_marginTop="@dimen/dimens_30dp"
+        android:text="@string/button2"
+        android:id="@+id/relative_btn2"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GotoRelativeLayout_Btn"
+        android:layout_marginTop="@dimen/dimens_30dp"
+        android:background="@drawable/box"
+        android:layout_marginStart="@dimen/dimens_10dp"
+        android:layout_toEndOf="@id/relative_btn2"
+        android:layout_marginEnd="@dimen/dimens_30dp"
+        android:layout_alignParentEnd="true"
+        android:text="@string/button3"
+        android:id="@+id/relativebtn3"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/dimens_120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:text="@string/button4"
+        android:layout_marginStart="@dimen/dimens_30dp"
+        android:layout_below="@id/relative_btn2"
+        android:layout_marginTop="@dimen/dimens_35dp"
+        android:id="@+id/relative_btn4"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/dimens_120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:text="@string/button5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/dimens_30dp"
+        android:layout_below="@id/relativebtn3"
+        android:layout_marginTop="@dimen/dimens_35dp"
+        android:id="@+id/relative_btn5"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:text="@string/submit"
+        android:layout_marginStart="@dimen/dimens_30dp"
+        android:layout_marginEnd="@dimen/dimens_30dp"
+        android:layout_marginBottom="@dimen/dimens_30dp"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/all_framelayout_id"
+    tools:context=".GotoframelayoutActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:text="@string/goToFrameLayout"
+        android:layout_marginTop="@dimen/dimens_60dp"
+        android:layout_marginStart="@dimen/dimens_30dp"
+        android:layout_marginEnd="@dimen/dimens_30dp"
+        android:id="@+id/framelayout_mainbutton"
+    />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:layout_marginStart="@dimen/dimens_30dp"
+        android:text="@string/button1"
+        android:layout_marginTop="@dimen/dimens_150dp"
+        android:id="@+id/framelayoutbtn_1"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:text="@string/button2"
+        android:layout_marginStart="@dimen/dimens_130dp"
+        android:layout_marginTop="@dimen/dimens_150dp"
+        android:id="@+id/framelayoutbtn_2"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:text="@string/button3"
+        android:layout_marginStart="@dimen/dimens_250dp"
+        android:layout_marginEnd="@dimen/dimens_30dp"
+        android:layout_marginTop="@dimen/dimens_150dp"
+        android:id="@+id/framelayoutbtn_3"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/framelayoutbtn_4"
+        android:layout_width="@dimen/dimens_120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimens_30dp"
+        android:layout_marginTop="@dimen/dimens_250dp"
+        android:background="@drawable/box"
+        android:text="@string/button4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/framelayoutbtn_5"
+        android:layout_width="@dimen/dimens_120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimens_220dp"
+        android:layout_marginTop="@dimen/dimens_250dp"
+        android:layout_marginEnd="@dimen/dimens_30dp"
+        android:background="@drawable/box"
+        android:text="@string/button5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/framelayoutbtn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimens_30dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="@dimen/dimens_30dp"
+        android:background="@drawable/box"
+        android:text="@string/submit_FRAMELAYOUT" />
+
+</FrameLayout>

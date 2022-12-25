@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyFirstapplication</string>
+    <string name="enterUserName">Enter User Name</string>
+    <string name="enterpassword">Enter Password</string>
+    <string name="submit">Submit</string>
+    <string name="feedBack">Feed Back</string>
+    <string name="home">Home</string>
+    <string name="goToFrameLayout">Go To FrameLayout</string>
+    <string name="goToLinearLayout">GO TO LINEAR LAYOUT</string>
+    <string name="gotoRelativeLayout">GO TO RELATIVE LAYOUT</string>
+    <string name="gotoConstraintLayout">GO TO CONSTRAINT LAYOUT</string>
+
+    <!--use for bUTTON-->
+    <string name="button1">BUTTON1</string>
+    <string name="button2">BUTTON2</string>
+    <string name="button3">BUTTON3</string>
+    <string name="button4">BUTTON4</string>
+    <string name="button5">BUTTON5</string>
+    <string name="submit_FRAMELAYOUT">SUBMIT</string>
+</resources>
